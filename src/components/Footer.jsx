@@ -1,0 +1,3 @@
+import Brand from './Brand';
+import { INSTAGRAM_URL } from '../data/config';
+export default function Footer() { return <footer className="footer"><div className="container"><div className="footer-main"><div className="footer-brand"><Brand /><span>Treine. Evolua. Continue.</span></div><nav aria-label="Rodapé"><a href="#modalidades">Modalidades</a><a href="#horarios">Horários</a><a href="#localizacao">Localização</a><a href="#contato">Contato</a></nav><a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">@thfitacademia ↗</a></div><div className="footer-bottom"><span>© 2026 TH Fit Academia. Todos os direitos reservados.</span><span>FEITO PARA O SEU MOVIMENTO.</span></div></div></footer>; }
