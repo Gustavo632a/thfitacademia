@@ -43,9 +43,10 @@ Oswald e Inter são carregadas via Google Fonts com `display=swap` e fontes de s
 
 ## Publicação
 
-Publique `dist/` em uma hospedagem estática. Preencha os dados acima e use a URL pública absoluta em `og:image` no `index.html` para compartilhamento social. O Schema.org inclui somente nome, modalidades, Instagram e horários confirmados; não há telefone, endereço ou domínio inventados.
+Publique `dist/` em uma hospedagem estática. Preencha os dados acima e use a URL pública absoluta em `og:image` no `index.html` para compartilhamento social. O Schema.org inclui nome, modalidades, Instagram, horários, telefone e endereço fornecidos. Nenhum domínio foi presumido.
 
 ## Validação
 
 Build de produção e lint disponíveis nos comandos acima. Não há backend, formulário, credenciais ou rastreadores. Links externos usam HTTPS e `noopener noreferrer`. O mapa somente carrega após configuração. A interface inclui links de navegação, retorno ao topo, menu com fechamento por Escape e por seleção, imagens com tamanho reservado e lazy loading nas modalidades.
+
 
